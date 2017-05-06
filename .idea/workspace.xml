@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55107f0e-5dd6-461a-bfdc-855d9359a54e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mcb/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mcb/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mcb/.idea/mcb.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mcb/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mcb/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mcb/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mcb/mcb.db" afterPath="$PROJECT_DIR$/../mcb/mcb.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mcb/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mcb/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mcb/mcb.py" afterPath="$PROJECT_DIR$/../mcb/mcb.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +33,8 @@
       <file leaf-file-name="mcb.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../mcb/mcb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+            <state relative-caret-position="585">
+              <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
               <folding>
                 <element signature="e#85#101#0" expanded="true" />
               </folding>
@@ -319,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494037918299</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add read and help">
+      <created>1494039124920</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1494039124920</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -384,7 +385,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="add read and help" />
+    <option name="LAST_COMMIT_MESSAGE" value="add read and help" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -393,8 +395,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../mcb/mcb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+        <state relative-caret-position="585">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           <folding>
             <element signature="e#85#101#0" expanded="true" />
           </folding>

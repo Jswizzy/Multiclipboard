@@ -7,6 +7,7 @@ import sys
 import pprint
 
 HELP = "Usage: 'key' | save 'key' | del 'key' | read 'key' | list | help"
+NO_SUCH_KEY = "key not found: use save 'key' first to save key to clipboard"
 
 
 def do_command(command, key):
@@ -25,6 +26,8 @@ def do_lookup(key):
         pprint.pprint(str(list(mcbShelf.keys())))
     elif key in mcbShelf:
         pyperclip.copy(mcbShelf[key])
+    else:
+        print(NO_SUCH_KEY)
 
 mcbShelf = shelve.open('mcb')
 
