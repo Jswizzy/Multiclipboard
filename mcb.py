@@ -1,17 +1,23 @@
 #! /usr/bin/env python3
-# mcb.py allows for stories and copying multiple items to the clipboard
+# mcb.py allows for copying multiple items to the clipboard
 
 import pyperclip
 import shelve
 import sys
 import pprint
 
+HELP = "Usage: 'key' | save 'key' | del 'key' | read 'key' | list | help"
+
 
 def do_command(command, key):
     if command == 'save':
         mcbShelf[k] = pyperclip.paste()
-    if command == 'del':
+    elif command == 'del':
         del mcbShelf[key]
+    elif command == 'read':
+        print(mcbShelf[key])
+    else:
+        print(HELP)
 
 
 def do_lookup(key):
@@ -32,6 +38,8 @@ if ln == 3:
 elif ln == 2:
     k = sys.argv[1].lower()
     do_lookup(k)
+else:
+    print(HELP)
 
 mcbShelf.close()
 
