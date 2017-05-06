@@ -7,7 +7,7 @@ import sys
 import pprint
 
 HELP = "Usage: 'key' | save 'key' | del 'key' | read 'key' | list | help"
-NO_SUCH_KEY = "key not found: use save 'key' first to save key to clipboard"
+NO_SUCH_KEY = "key not found: use save 'key' first to save clipboard to key"
 
 
 def do_command(command, key):
